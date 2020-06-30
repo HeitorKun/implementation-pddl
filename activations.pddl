@@ -1,10 +1,9 @@
-
 (define (problem activations)
   (:domain paradigm_planner)
 
   (:objects 
     AG LG STG ORB ACC HIP SP PRE MTG SG INS IOG MOG IFG SPL ITG FG THA CUN MFG IPL PUT
-    calculo change falmem fastloc palavras sennum
+    calculus change falmem fastloc words sennum
     equation number chang false true falsefont print speech vocod iregular regular pseudo resp fig
     parietal_lobe temporal_lobe frontal_lobe occipital_lobe subcortical)
     
@@ -35,11 +34,11 @@
     (region PUT) ; Putamen
 
     ; Paradigms     
-    (paradigm calculo)
+    (paradigm calculus)
     (paradigm change)
     (paradigm falmem)
     (paradigm fastloc)
-    (paradigm palavras)
+    (paradigm words)
     (paradigm sennum)
     
     ; Stimulus blocks of paradigms
@@ -65,23 +64,23 @@
     (lobe occipital_lobe)
     (lobe subcortical)
     
-    ; Task: calculo / block: equation
-    (active calculo equation AG)
-    (active calculo equation LG)
-    (active calculo equation STG)
-    (active calculo equation ORB)
-    (active calculo equation ACC)
-    (active calculo equation HIP)
-    (active calculo equation SP)
-    (active calculo equation PRE)
+    ; Task: calculus / block: equation
+    (active calculus equation AG)
+    (active calculus equation LG)
+    (active calculus equation STG)
+    (active calculus equation ORB)
+    (active calculus equation ACC)
+    (active calculus equation HIP)
+    (active calculus equation SP)
+    (active calculus equation PRE)
 
-    ; Task: calculo / block: number
-    (active calculo number STG)
-    (active calculo number HIP)
-    (active calculo number MTG)
-    (active calculo number LG)
-    (active calculo number ORB)
-    (active calculo number PRE)
+    ; Task: calculus / block: number
+    (active calculus number STG)
+    (active calculus number HIP)
+    (active calculus number MTG)
+    (active calculus number LG)
+    (active calculus number ORB)
+    (active calculus number PRE)
     
     ; Task: change / block: change
     (active change chang MTG)
@@ -129,33 +128,33 @@
     (active fastloc vocod THA)
     (active fastloc vocod LG)
 
-    ; Task: palavras / block: pseudo   
-    (active palavras pseudo IOG)
-    (active palavras pseudo MOG)
-    (active palavras pseudo CUN)
-    (active palavras pseudo ACC)
-    (active palavras pseudo MFG)
-    (active palavras pseudo INS)
-    (active palavras pseudo SPL)
+    ; Task: words / block: pseudo   
+    (active words pseudo IOG)
+    (active words pseudo MOG)
+    (active words pseudo CUN)
+    (active words pseudo ACC)
+    (active words pseudo MFG)
+    (active words pseudo INS)
+    (active words pseudo SPL)
 
-    ; Task: palavras / block: regular
-    (active palavras regular CUN)
-    (active palavras regular LG)
-    (active palavras regular IOG)
-    (active palavras regular MOG)
-    (active palavras regular ACC)
-    (active palavras regular INS)
-    (active palavras regular MFG)
-    (active palavras regular SPL)
-    (active palavras regular THA)
+    ; Task: words / block: regular
+    (active words regular CUN)
+    (active words regular LG)
+    (active words regular IOG)
+    (active words regular MOG)
+    (active words regular ACC)
+    (active words regular INS)
+    (active words regular MFG)
+    (active words regular SPL)
+    (active words regular THA)
     
-    ; Task: palavras / block: iregular
-    (active palavras iregular IOG)
-    (active palavras iregular MOG)
-    (active palavras iregular INS)
-    (active palavras iregular IFG)
-    (active palavras iregular ACC)
-    (active palavras iregular MFG)
+    ; Task: words / block: iregular
+    (active words iregular IOG)
+    (active words iregular MOG)
+    (active words iregular INS)
+    (active words iregular IFG)
+    (active words iregular ACC)
+    (active words iregular MFG)
     
     ; Task: sennum / block: fig
     (active sennum fig IOG)
