@@ -4,13 +4,13 @@
 
   (:objects 
     AG LG STG ORB ACC HIP SP PRE MTG SG INS IOG MOG IFG SPL ITG FG THA CUN MFG IPL PUT
-    calculus change falmem fastloc palavras sennum
+    calculo change falmem fastloc palavras sennum
     equation number chang false true falsefont print speech vocod iregular regular pseudo resp fig
     parietal_lobe temporal_lobe frontal_lobe occipital_lobe subcortical)
     
   (:init
 
-    ; Brain Regions
+    ; Definicao das regioes
     (region AG) ; Angular Gyrus
     (region LG) ; Lingual Gyrus
     (region STG) ; Superior Temporal Gyrus
@@ -35,7 +35,7 @@
     (region PUT) ; Putamen
 
     ; Paradigms     
-    (paradigm calculus)
+    (paradigm calculo)
     (paradigm change)
     (paradigm falmem)
     (paradigm fastloc)
@@ -65,23 +65,23 @@
     (lobe occipital_lobe)
     (lobe subcortical)
     
-    ; Task: calculus / block: equation
-    (active calculus equation AG)
-    (active calculus equation LG)
-    (active calculus equation STG)
-    (active calculus equation ORB)
-    (active calculus equation ACC)
-    (active calculus equation HIP)
-    (active calculus equation SP)
-    (active calculus equation PRE)
+    ; Task: calculo / block: equation
+    (active calculo equation AG)
+    (active calculo equation LG)
+    (active calculo equation STG)
+    (active calculo equation ORB)
+    (active calculo equation ACC)
+    (active calculo equation HIP)
+    (active calculo equation SP)
+    (active calculo equation PRE)
 
-    ; Task: calculus / block: number
-    (active calculus number STG)
-    (active calculus number HIP)
-    (active calculus number MTG)
-    (active calculus number LG)
-    (active calculus number ORB)
-    (active calculus number PRE)
+    ; Task: calculo / block: number
+    (active calculo number STG)
+    (active calculo number HIP)
+    (active calculo number MTG)
+    (active calculo number LG)
+    (active calculo number ORB)
+    (active calculo number PRE)
     
     ; Task: change / block: change
     (active change chang MTG)

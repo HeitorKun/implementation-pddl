@@ -23,6 +23,7 @@
     :precondition (and
       (paradigm ?paradigm)
       (block ?block)
+      
       (active ?paradigm ?block ?region)
     )
     :effect (and
@@ -54,7 +55,7 @@
       (active ?paradigm ?block ?region)
     )
     :effect (and
-      (actived ?region)
+      ;(actived ?region)
       (actived ?lobe)
     )
   )  
