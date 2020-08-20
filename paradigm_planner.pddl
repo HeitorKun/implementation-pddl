@@ -55,7 +55,7 @@
       (active ?paradigm ?block ?region)
     )
     :effect (and
-      ;(actived ?region)
+      (actived ?region)
       (actived ?lobe)
     )
   )  
